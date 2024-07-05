@@ -106,8 +106,61 @@ let pessoa = {
     let valores = [10,20,30,40,50], soma = 0
     for(i = 0; i < 5; i++){
         soma = soma + valores[1]
-        console.log(soma)
     }
+    console.log(soma)
+
+    // ex.14
+    let numero = [2,4,8,97,14],numeros=[0],maiorNumero=0
+    for (let i = 1; i < numero.length; i++){
+        if(numero[i] > maiorNumero){
+            maiorNumero = numero[i]
+        }
+
+    }
+    console.log("o maior numero no vetor é:", maiorNumero)
+
+    // ex.15
+     let numero0 =[2,4,8,97,14],numeros1=[0],menornumero=0
+     for(let i=1;i<numero0.length;i++){
+        if(numero0[i] < menornumero){
+            menornumero = numero0[i]
+        }
+     }
+     console.log("o menor numero no vetor é:",menornumero)
+
+     // ex.16
+     n = 10
+     let fatorial = 1
+     for(let i=1; i<=n; i++){
+        fatorial *= i
+     }
+     console.log("o resultado é:", fatorial);
+
+     // ex.17
+     for(i=1; i<=10; i++){
+        if(i % 2 == 0){
+            console.log("par")
+        }else{
+            console.log("impar")
+        }
+     }
+
+     // ex.18
+     let texto = "Paralelepipedo e dificl"
+     let vogais = ["a","e","i","o","u"]
+     let contadores = 0
+     for(i=0;i< texto.length;i++)
+        if(vogal.includes(texto[i])){
+            contadores++
+        }
+        console.log("possuem", contadores, "vocais")
+
+
+        
+            
+    
+
+
 
 
 
